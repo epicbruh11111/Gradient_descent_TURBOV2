@@ -1,3 +1,7 @@
+
+![image alt](https://github.com/epicbruh11111/Gradient_descent_TURBOV2/blob/main/assets/Gradient_Descent_in_C.png?raw=true)
+
+
 # Gradient_descent_TURBOV2
 This project is the V2 better version of the "https://github.com/epicbruh11111/Gradient-Descent_Ml" made by Ark This version will have two things, C support,and cython/pyhton(still under development)  
 
