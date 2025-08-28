@@ -27,3 +27,5 @@ any compiling errors or do a pull request with the problem to find the solution
 
 Feel free to use the project and add your own implementation and take credits for it as this project is not serious 
 and just a nice resume decorator for my skills.
+
+# *Please review the wiki for more info*
