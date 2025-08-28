@@ -6,12 +6,12 @@ This way, the heavy lifting is done in **C** for performance, while Python is us
 ---
 
 ## 📂 Project Structure
-
-├── GDmod.c # C implementation of gradient descent
-├── GDmod.h # C header (struct + function prototypes)
-├── wrapper.pyx # Cython wrapper around C functions
-├── setup.py # Build script to compile the extension
-├── main.py # Python script to run gradient descent
+|
+├── GDmod.c # C implementation of gradient descent  
+├── GDmod.h # C header (struct + function prototypes)  
+├── wrapper.pyx # Cython wrapper around C functions  
+├── setup.py # Build script to compile the extension  
+├── main.py # Python script to run gradient descent  
 
 
 ---
@@ -26,7 +26,7 @@ Functions include:
 - `descent()` → one gradient descent step  
 - `compute_loss()` → mean squared error  
 - `gradient_descent()` → runs multiple epochs, tracks `w`, `b`, and loss history  
-- `free_losshistory()` → frees allocated memory  
+- `free_losshistory()` → frees allocated memory  (the gradient descent function will return a loss history which after you finish from you pass inside this free memory function)
 
 The `GD` struct holds:
 ```c
